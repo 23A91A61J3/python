@@ -1,0 +1,8 @@
+t = int(input())
+for _ in range(t):
+    a, b, c = map(int, input().split())
+    odds = (a % 2) + (b % 2) + (c % 2)
+    if 1 <= odds <= 2:
+        print("YES")
+    else:
+        print("NO")
