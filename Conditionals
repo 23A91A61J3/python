@@ -1,0 +1,14 @@
+t = int(input())
+for _ in range(t):
+    n, A, B = map(int, input().split())
+    temps = list(map(int, input().split()))
+    wearing = False
+    count = 0
+    for temp in temps:
+        if temp < A:
+            if not wearing:
+                count += 1
+                wearing = True
+        elif temp > B:
+            wearing = False
+    print(count)
