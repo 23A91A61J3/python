@@ -1,0 +1,14 @@
+n = int(input())
+arr = list(map(int, input().split()))
+
+zero = pos = neg = 0
+
+for x in arr:
+    if x == 0:
+        zero += 1
+    elif x > 0:
+        pos += 1
+    else:
+        neg += 1
+
+print(zero, pos, neg)
