@@ -1,0 +1,5 @@
+
+x = int(input())
+rem_pop = x - 100
+popcorn = rem_pop // 50
+print(popcorn)
