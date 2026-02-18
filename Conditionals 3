@@ -1,0 +1,5 @@
+n, m,a =map(int,input().split())
+if n*a>= m:
+    print("yes")
+else:
+    print("no")
