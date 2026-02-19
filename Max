@@ -1,0 +1,5 @@
+T = int(input())
+for _ in range(T):
+    X, Y, N = map(int, input().split())
+    remaining = X - Y * N
+    print(max(0, remaining))
