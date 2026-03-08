@@ -1,0 +1,5 @@
+a = -50
+b = 40
+add = a + b
+product = a * b
+print(add, product)
