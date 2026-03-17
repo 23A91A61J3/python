@@ -1,0 +1,6 @@
+t = int(input())
+for i in range(t):
+    A, B = map(int, input().split())     
+    S = A + B               
+    P = A * B              
+    print(S, P)
