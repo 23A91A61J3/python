@@ -1,0 +1,15 @@
+t = int(input())
+for _ in range(t):
+    x,y,z = map(int,input().split())
+    passed_exams = 0
+    
+    if x >= 50:
+        passed_exams += 1
+    if y >= 50:
+        passed_exams += 1
+    if z >= 50:
+        passed_exams += 1
+    if passed_exams >= 2:
+        print("yes")
+    else:
+        print("no")
