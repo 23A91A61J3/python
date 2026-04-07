@@ -1,0 +1,9 @@
+t = int(input())
+
+for i in range(t):
+    
+    X = int(input())
+    
+    total_squats = X * 15
+    
+    print(total_squats)
