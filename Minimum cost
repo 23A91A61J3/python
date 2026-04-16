@@ -1,0 +1,4 @@
+n, k = map(int,input().split())
+cost1 = n * 100
+cost2 = k + (60 * n)
+print(min (cost1 , cost2))
