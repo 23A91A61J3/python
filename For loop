@@ -1,0 +1,7 @@
+t = int(input())
+for i in range(t):
+    m,n = map(int,input().split())
+    ans = 0
+    for i in range(m + 1, n + 1):
+        ans += i
+    print(ans)
