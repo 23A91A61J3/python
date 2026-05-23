@@ -1,0 +1,6 @@
+x, y, z = map(int, input().split())
+if z <= 50:
+    print(x)
+else:
+    total_cost = x + (z - 50) * y
+    print(total_cost)
