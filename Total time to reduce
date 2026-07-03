@@ -1,0 +1,9 @@
+t = int(input())
+for _ in range(t):
+    x, y = map(int, input().split())    
+    total_time = 0
+    while x > y:
+        time_to_reduce = (x + 9) // 10
+        total_time += time_to_reduce
+        x -= 1
+    print(total_time)
