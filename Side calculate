@@ -1,0 +1,3 @@
+a, b = map(int,input().split())
+side =min(a,b)
+print(side * side)
