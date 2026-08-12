@@ -1,0 +1,5 @@
+l,r = map(int, input().split())
+if l % 2 == 0 or l < r:
+    print("yes")
+else:
+    print("no")
