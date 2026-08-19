@@ -1,0 +1,5 @@
+n, g = map(int,input().split())
+if n >= 0:
+   print("yes")
+else:
+   print("no")
