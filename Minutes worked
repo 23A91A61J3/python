@@ -1,0 +1,10 @@
+T = int(input())
+for _ in range(T):
+    N, K = map(int, input().split())
+    minutes_worked = 0
+    current_minute = 0
+    while minutes_worked < N:
+        current_minute += 1
+        if current_minute % K != 0:
+            minutes_worked += 1
+    print(current_minute)
