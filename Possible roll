@@ -1,0 +1,5 @@
+x, k, y = map(int,input().split())
+if y% k == 0 and y // k <= x:
+    print("yes")
+else:
+    print("no")
