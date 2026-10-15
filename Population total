@@ -1,0 +1,6 @@
+t = int(input())
+for i in range(t):
+    X, Y, Z = map(int, input().split())
+    # Subtract Y (people leaving) and add Z (people arriving)
+    total_population = X - Y + Z
+    print(total_population)
