@@ -1,0 +1,24 @@
+import sys
+import math
+def solve():
+    input = sys.stdin.read
+    data = input().split()
+    if not data:
+        return
+    T = int(data[0])
+    results = []
+    idx = 1
+    for _ in range(T):
+        N = int(data[idx])
+        S = int(data[idx+1])
+        idx += 2
+        min_c = max(0, math.ceil(S / 4))
+        w = 4 * min_c - S
+        total_attempted = min_c + w
+        if total_attempted <= N:
+            results.append(str(total_attempted))
+        else:
+            results.append("-1")
+    print('\n'.join(results))
+if __name__ == '__main__':
+    solve()
