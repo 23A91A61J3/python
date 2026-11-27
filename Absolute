@@ -1,0 +1,2 @@
+R, L = map(int, input().split())
+print(abs(R - L))
